@@ -1,0 +1,9 @@
+header,
+main,
+nav,  
+footer{
+  border:1px solid black;
+}
+main{
+  min-height:1000px;
+}
