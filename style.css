@@ -5,14 +5,14 @@
   text-align: center;
 }
 
+.carousel-caption span {
+  font-size: 0.8em;
+  font-weight: lighter;
+}
 .carousel-control-prev {
 position: bottom;
-
 }
-/* .carousel-caption span {
-font-size: 0.7em;
-font-weight: lighter;
-} */
+
 
 .contain-icon {
 height: auto;
@@ -42,7 +42,7 @@ height: auto;
   text-transform: uppercase;
 }
 
-.overlay {
+ .overlay {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -56,10 +56,12 @@ height: auto;
 
 .column:hover .overlay {
   height: 100%;
+
 }
 
 .text {
   text-align: center;
+  line-height: 25px;
   white-space: nowrap;
   color: white;
   position: absolute;
@@ -70,11 +72,10 @@ height: auto;
   -ms-transform: translate(-50%, -50%);
 }
 
-.text hr {
+.overlay .text hr {
   width: 35%;
-  height: 2px;
+  height: 1px;
   background-color: white;
-  position: absolute;
-  margin-left: 30%;
-  margin-bottom: 50px;
+  margin-left: 55px;
+  line-height: 50px;
 }
