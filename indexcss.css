@@ -1,0 +1,73 @@
+span.caroussel-control-prev-icon {
+
+
+}
+
+.partie1{
+  display: block;
+  width: 690px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.partie1 h2{
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+  color: #164194;
+  text-align: center;
+  margin: 30px 0 20px 0;
+  line-height: 1.4;
+  text-transform: uppercase;
+
+
+}
+.partie1 p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: #333333;
+  font-style: normal;
+  line-height: 1.9;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+.partie1 a {
+  color: #464646;
+  text-decoration: none;
+}
+.partie1 a:hover  {
+  transition: all 0.2s ease-in-out 0s;
+  color: #164194;
+  text-decoration: none;
+}
+
+#logo1 {
+display: block;
+width: 1080px;
+margin-left: auto;
+margin-right: auto;
+box-sizing: border-box;
+padding-left: 15px;
+padding-right: 15px;
+width: 100%;
+text-align: center;
+}
+
+.imglogo {
+
+  width: 174px;
+  height: 122px;
+}
+.partie2 h2{
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+  color: #164194;
+  text-align: center;
+  margin: 30px 0 20px 0;
+  line-height: 1.4;
+  text-transform: uppercase;
