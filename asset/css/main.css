@@ -2,7 +2,13 @@ html, body{
   width: 100%;
   padding: 0;
   margin: 0;
+  color: #333333;
+  font-size: 16px;
+  font-family: Raleway;
+  font-weight: 0;
+  font-style: normal;
 }
+
 #page{
   width: 100%;
 
@@ -63,4 +69,102 @@ header{
   font-weight: 700;
   font-style: normal;
   margin-right: 15px;
+}
+
+
+/* .off-canvas-close {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 45px;
+    top: 45px;
+    z-index: 9;
+    background: #ffffff;
+} */
+.off-canvas-wrap {
+    height: 100%;
+    overflow-y: auto;
+    /* padding: 35px 35px; */
+    -webkit-overflow-scrolling: touch;
+}
+.off-canvas-wrap a{
+
+    text-decoration: none;
+    color: #333;
+
+}
+.widget {
+   margin-bottom: 40px;
+}
+
+.widget {
+   margin-bottom: 50px;
+}
+
+.widget:last-child {
+    margin-bottom: 0;
+}
+
+
+.widget.widget_nav_menu .menu li {
+    margin-bottom: 10px;
+}
+
+.widget ul li {
+    list-style: none;
+}
+
+.widget .social-links a {
+    margin-right: 20px;
+    color: #cccccc;
+}
+
+.widget .social-links a i {
+    font-size: 28px;
+}
+
+body i.fa {
+    font-size: 14px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.off-canvas-close span {
+    width: 20px;
+    height: 2px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    top: 20px;
+}
+
+.sub-menu {
+    margin: 10px 0 10px 15px;
+}
+
+.off-canvas-close span:before {
+    top: auto;
+    bottom: -12px;
+    -webkit-transform: translateY(-12px) rotateZ(45deg);
+    -moz-transform: translateY(-12px) rotateZ(45deg);
+    -ms-transform: translateY(-12px) rotateZ(45deg);
+    -o-transform: translateY(-12px) rotateZ(45deg);
+    transform: translateY(-12px) rotateZ(45deg);
+}
+
+.off-canvas-close span:after {
+    -webkit-transform: translateY(12px) rotateZ(-45deg);
+    -moz-transform: translateY(12px) rotateZ(-45deg);
+    -ms-transform: translateY(12px) rotateZ(-45deg);
+    -o-transform: translateY(12px) rotateZ(-45deg);
+    transform: translateY(12px) rotateZ(-45deg);
 }
