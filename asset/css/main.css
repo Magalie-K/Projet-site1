@@ -1,9 +1,65 @@
+html, body{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+#page{
+  width: 100%;
+
+}
+.navSlide{
+  width: 100%;
+  position: fixed;
+}
+
+
+#menu-right{
+  top: 0px;
+  position: fixed;
+}
+
 header,
 main,
-nav,  
+nav,
 footer{
   border:1px solid black;
 }
 main{
   min-height:1000px;
+  background-color: white;
+}
+header{
+  margin-top: 70px;
+}
+
+.navscrolltop{
+  top: -118px;
+  transition: all 400ms ease-out;
+}
+.navscrollDown{
+  top: 0px;
+  transition: all 400ms ease-out;
+}
+
+.navbar {
+  padding: 30px;
+}
+
+#florent-nav ul.align-items-center{
+  height: 100%;
+  padding-top: 20px;
+}
+
+#florent-nav img{
+  margin-top: 14px;
+}
+#florent-nav ul.align-items-center a{
+  color: #5488C7; /* couleur du lien actif*/
+  color: #164194; /* couleur des liens  */
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-style: normal;
+  margin-right: 15px;
 }
