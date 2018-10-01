@@ -848,3 +848,8 @@
 	});
 
 })(this, jQuery);
+
+
+$( function(){
+	$( document ).trigger( "enhance" );
+});

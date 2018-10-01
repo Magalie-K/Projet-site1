@@ -19,7 +19,11 @@
  * Offcanvas-content-wrap
 */
 /* line 11, ../../src/js-offcanvas.scss */
-.c-offcanvas-content-wrap {
+nav.c-offcanvas-content-wrap {
+  position: fixed;
+}
+
+main.c-offcanvas-content-wrap {
   position: relative;
   z-index: 3;
   overflow: hidden;
@@ -112,6 +116,7 @@
   width: 17em;
   right: 0;
   transform: translate3d(17em, 0, 0);
+  top: 118px;
 }
 
 /**
