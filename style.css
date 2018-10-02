@@ -1,6 +1,6 @@
+
+
 span.caroussel-control-prev-icon {
-
-
 }
 
 .partie1{
@@ -55,9 +55,97 @@ width: 100%;
 text-align: center;
 }
 
+.carousel-caption h1 {
+  padding-bottom: 350px;
+  font-size: 3.1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.carousel-caption span {
+  font-size: 0.8em;
+  font-weight: lighter;
+}
+.carousel-control-prev {
+position: bottom;
+}
+
+
+.contain-icon {
+height: auto;
+
+}
+
+
+
+.image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80px;
+  height: 80px;
+  margin-top: 40px;
+}
+
+.column {
+  height: 250px;
+}
+
+.contain-icon p {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+ .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #164194;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.column:hover .overlay {
+  height: 100%;
+
+}
+
+.text {
+  text-align: center;
+  line-height: 25px;
+  white-space: nowrap;
+  color: white;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.overlay .text hr {
+  width: 35%;
+  height: 1px;
+  background-color: white;
+  margin-left: 55px;
+  line-height: 50px;
+}
+
+body{
+margin-bottom: 200px;}
 
 footer a{color:white;
 text-decoration: none}
+
+
+.body{
+  background-color:#f4f4f4;
+  margin: 20px
+}
+
 
 .rectangle1{
 
@@ -68,8 +156,8 @@ text-decoration: none}
   box-sizing: border-box;
   display:block;
   line-height:30.4px;
-  position:static;
-  z-index:auto;
+  position:fixed;
+
 }
 
 .rectangle2{
@@ -81,20 +169,21 @@ text-decoration: none}
   box-sizing: border-box;
   display:block;
   line-height:30.4px;
-  position:static;
+  position:fixed;
 }
-
 
 .liens{
   float:right;
-  width: 4rem;
-  height:4rem;
   color: blue;
 
 }
+.fab {
+  opacity: 0.33;
+  z-index: 999;
+}
 
 .copyright {
-  margin-left: 30px;
+  margin-left: 10px;
 }
 
 .alignnone, .sasp{
