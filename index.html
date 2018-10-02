@@ -7,10 +7,11 @@
 	<title>Projet Magalie</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" />
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" >
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link rel="stylesheet" href="asset/css/js-offcanvas.css">
 	<link rel="stylesheet" href="asset/css/main.css" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="asset/css/carousel-photos.css" />
 
 
 </head>
@@ -193,6 +194,97 @@
 			 </div>
 			</div>
 			</div><!--fin container3-->
+
+
+			<!-- carousel 1: photos pour les ecrans superieur à 480px -->
+			<div id="demo" class="carousel slide" data-ride="carousel" data-interval="false" data-pause="hover">
+				<!-- Indicators -->
+				<ul class="carousel-indicators" >
+					<li data-target="#demo" data-slide-to="0" class="active"></li>
+					<li data-target="#demo" data-slide-to="1"></li>
+				</ul>
+				<!-- The slideshow -->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<!-- <img class="" src="http://www.sasp.fr/wp-content/uploads/2018/09/jobdating-691x747.jpg" height="150" alt="job dating sasp" title="Job dating SASP"> -->
+						<div class="container-fluid">
+							<div class="row rowCarouselFlorent">
+								<div class="col-6 ">
+									<a class="lienCarouselFlorent" href="#" alt="">
+										<p>Job Dating – Les offres d’emploi proposées par SASP</p>
+										<img class="" src="http://www.sasp.fr/wp-content/uploads/2018/09/jobdating-691x747.jpg" height="150" alt="job dating sasp" title="Job dating SASP">
+									</a>
+								</div>
+								<div class="col-6">
+									<a class="lienCarouselFlorent" href="#" alt="">
+										<p>SASP intègre une dizaine de nouveaux collaborateurs</p>
+										<img class="" src="http://www.sasp.fr/wp-content/uploads/2018/09/2-1280x747.jpg" height="150" alt="job dating sasp" title="Job dating SASP">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="container-fluid">
+							<div class="row rowCarouselFlorent">
+								<div class="col-6">
+									<a class="lienCarouselFlorent" href="#" alt="">
+										<p>Anthony SIMON récompensé d’un trophée « entrepreneur de l’année »</p>
+										<img class="" src="http://www.sasp.fr/wp-content/uploads/2018/02/image001.jpg" height="150" alt="job dating sasp" title="Job dating SASP">
+									</a>
+								</div>
+								<div class="col-6">
+									<a class="lienCarouselFlorent" href="#" alt="">
+										<p>SASP à Las Vegas avec la délégation Normande</p>
+										<img class="" src="http://www.sasp.fr/wp-content/uploads/2018/01/IMG_0399-1280x747.jpg" height="150" alt="job dating sasp" title="Job dating SASP">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- carousel 2: photos pour les ecrans inferrieur à 480px -->
+			<div id="demo2" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ul class="carousel-indicators" >
+					<li data-target="#demo2" data-slide-to="0" class="active"></li>
+					<li data-target="#demo2" data-slide-to="1"></li>
+					<li data-target="#demo2" data-slide-to="2"></li>
+					<li data-target="#demo2" data-slide-to="3"></li>
+				</ul>
+				<!-- The slideshow -->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<a class="lienCarouselFlorent" href="#" alt="">
+							<p>Job Dating – Les offres d’emploi proposées par SASP</p>
+							<img class="" src="http://www.sasp.fr/wp-content/uploads/2018/09/jobdating-691x747.jpg" height="150" alt="job dating sasp" title="Job dating SASP">
+						</a>
+					</div>
+					<div class="carousel-item">
+						<a class="lienCarouselFlorent" href="#" alt="">
+							<p>SASP intègre une dizaine de nouveaux collaborateurs</p>
+							<img class="" src="http://www.sasp.fr/wp-content/uploads/2018/09/2-1280x747.jpg" height="150" alt="job dating sasp" title="Job dating SASP">
+						</a>
+					</div>
+					<div class="carousel-item">
+						<a class="lienCarouselFlorent" href="#" alt="">
+							<p>Anthony SIMON récompensé d’un trophée « entrepreneur de l’année »</p>
+							<img class="" src="http://www.sasp.fr/wp-content/uploads/2018/02/image001.jpg" height="150" alt="job dating sasp" title="Job dating SASP">
+						</a>
+					</div>
+					<div class="carousel-item">
+						<a class="lienCarouselFlorent" href="#" alt="">
+							<p>SASP à Las Vegas avec la délégation Normande</p>
+							<img class="" src="http://www.sasp.fr/wp-content/uploads/2018/01/IMG_0399-1280x747.jpg" height="150" alt="job dating sasp" title="Job dating SASP">
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- fin des 2 carousels photos -->
+
+
 
 
 			<!-- partie nos partenaires -->
