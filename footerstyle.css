@@ -1,8 +1,13 @@
 footer a{color:white;
 text-decoration: none}
 
-.bloc-footer{
-position:absolute;
+/* footer{
+margin-left: 20px;
+margin-right: 50px;
+} */
+
+#bloc-footer{
+position:fixed;
 bottom:500px;
 width: 100%;
 }
@@ -37,44 +42,33 @@ width: 100%;
   color:white;
 }
 
+
 .copyright {
   margin-left: 10px;
   font-family:"Raleway";
   color:white;
-  color:#5e7299;
 }
 
-.copyright *{
-  vertical-align: top;
-}
-
-.liens{
-  float:right;
-  margin-right: 60px;
-}
-
-.fab {
+/* .liens{
   float:right;
   color: blue;
-  bottom: 60px;
-  font-size: 2.5rem;
-  color:#5e7299;
-  position: relative;
-  margin-left: 20px;
-}
+  margin-right: 150px;
+  } */
 
-.fab:hover{
-  color:white;
+.fab {
+  opacity: 0.33;
+  float:right;
+  color: blue;
+  height: 28px;
+  width: 28px;
 }
-
 
 .sasp{
+  opacity: 0.33;
   margin-left: 20px;
   margin-bottom: 20px;
 }
 
 .Opteam {
-  opacity: 0.5;
   margin-left: 10px;
-  color:#5e7299;
 }
