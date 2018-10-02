@@ -169,6 +169,11 @@ body i.fa {
     transform: translateY(12px) rotateZ(-45deg);
 }
 
+#menuNavbar{
+  width: 100%;
+  margin-left: -88px;
+}
+
 /* carousel bleu de  départ */
 
  .carousel-caption h1 {
