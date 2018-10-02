@@ -334,3 +334,31 @@ height: auto;
   margin-left: 55px;
   line-height: 50px;
 }
+/* Fin partie pictos */
+
+/* partenaires */
+.logo-company {
+
+ display: block;
+ margin-right: auto;
+ margin-left: auto;
+}
+
+.logo-company h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #164194;
+}
+
+.logo img {
+  margin-top: 20px;
+  	height: 147px;
+    width: 180px;
+  margin
+}
+
+.pic {
+  margin-left: -3px;
+  background-color: white;
+}
+/* Fin partenaires */
