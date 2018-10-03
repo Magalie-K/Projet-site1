@@ -1,0 +1,95 @@
+
+
+/*TEST */
+.footer1 {
+  height: 400px;
+  background-color: #164194;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+.footer1 img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 80px;
+  width: 220px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.footer1 a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer1 i {
+  margin-right: 15px;
+}
+
+.footer2 {
+  height: 80px;
+    background-color: #0f2d67;
+}
+
+.opteam {
+  padding-top: 20px;
+  color: #526891;
+}
+
+.opteam a {
+  color: white;
+  text-decoration: none;
+}
+
+.opteam img {
+  height: auto;
+  width: 220px;
+  margin-left: 10px;
+}
+
+.facebook {
+  padding-top: 20px;
+  text-align: right;
+  color: #526891;
+  margin-right: -5px;
+
+}
+
+.facebook a {
+  color: #526891;
+  text-decoration: none;
+}
+
+.facebook a:hover {
+  color: white;
+}
+
+.facebook i {
+  font-size: 2rem;
+
+}
+
+.linkedin {
+  padding-top: 20px;
+  text-align: left;
+  color: #526891;
+  margin-left: -5px;
+}
+
+.linkedin a {
+  color: #526891;
+  text-decoration: none;
+  font-size: 2rem;
+  position: relative;
+}
+
+.linkedin a:hover {
+  color: white;
+}
+
+.footer-size{
+  padding-left: 0px;
+  padding-right: 0px;
+}

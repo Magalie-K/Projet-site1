@@ -9,6 +9,10 @@ html, body{
   font-style: normal;
 }
 
+body main{
+background-color: #f4f4f4;
+}
+
 #page{
   width: 100%;
 
@@ -24,6 +28,10 @@ html, body{
   position: fixed;
 }
 
+.marge1 {
+  margin-top: 60px;
+}
+
 header,
 main,
 nav,
@@ -32,9 +40,12 @@ footer{
 }
 main{
   min-height:1000px;
-  background-color: white;
-  padding-top: 118px;
+  background-color:white;
+  padding-top: 63px;
+  /* margin-bottom: 30px; */
+
 }
+
 header{
   margin-top: 70px;
 }
@@ -50,6 +61,10 @@ header{
 
 .navbar {
   padding: 30px;
+}
+
+nav {
+  background-color: white;
 }
 
 #florent-nav ul.align-items-center{
@@ -84,6 +99,7 @@ header{
     z-index: 9;
     background: #ffffff;
 } */
+
 .off-canvas-wrap {
     height: 100%;
     overflow-y: auto;
@@ -181,11 +197,13 @@ body i.fa {
   font-size: 3.1em;
   font-weight: bold;
   text-align: center;
+  font-family:"Raleway";
 }
 
 .carousel-caption span {
   font-size: 0.8em;
   font-weight: lighter;
+  font-family:"Raleway";
 }
 .carousel-control-prev {
 position: bottom;
@@ -292,12 +310,12 @@ text-align: center;
 
 .contain-icon {
 height: auto;
-
 }
 
-.row {
+.content {
  width: 80%;
  margin: auto;
+ background-color: white;
 }
 
 .image {
@@ -371,11 +389,16 @@ height: auto;
   color: #164194;
 }
 
+.logo {
+text-align: center;
+margin-bottom: 80px;
+}
+
 .logo img {
   margin-top: 20px;
   	height: 147px;
     width: 180px;
-  margin
+
 }
 
 .pic {
@@ -384,82 +407,30 @@ height: auto;
 }
 /* Fin partenaires */
 
+/* flèche retour en haut */
+
+.top {
+    font-size: 1.5rem;
+    color: #164194;
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease; /* Transition de type ease */
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 999;
+}
+
+.top:hover {
+    transform: scale(2,2); /* On déplace l'objet */
+}
+
+/* flèche retour en haut */
+
 /* footer */
 
 footer a{color:white;
 text-decoration: none}
-
-.bloc-footer{
-position:absolute;
-bottom:0;
-width: 100%;
-height: 70vh}
-
-.rectangle2{
-  width: 100%;
-  height: 14.084507042253522vh;
-  float:inherit;
-  background:  #0f2d67;
-  box-sizing: border-box;
-  display:block;
-  line-height:4.757433489827856vh;
-  position:inherit;
-  bottom:0;
-}
-
-.rectangle1{
-  width: 100%;
-  height: 53.364632237871675vh;
-  float:inherit;
-  background: #164194;
-  box-sizing: border-box;
-  display:block;
-  line-height:4.757433489827856vh;
-  position:inherit;
-  bottom:14.084507042253522vh;
-}
-
-.texte1{
-  text-align:center;
-  font-family:"Raleway";
-  color:white;
-}
-
-.copyright {
-  margin-left: 1.5649452269170578vh;
-  font-family:"Raleway";
-  color:white;
-  color:#5e7299;
-}
-
-.copyright *{
-  vertical-align: top;
-}
-
-.liens{
-  float:right;
-  margin-right: 9.389671361502348vh;
-}
-
-.logos {
-  float:right;
-  color: blue;
-  bottom: 9.389671361502348vh;
-  font-size: 2.5rem;
-  color:#5e7299;
-  position: relative;
-  margin-left: 3.1298904538341157vh;
-}
-
-.logos:hover{
-  color:white;
-}
-
-
-.sasp{
-  margin-left: 3.1298904538341157vh;
-  margin-bottom: 3.1298904538341157vh;
-}
 
 .Opteam {
   opacity: 0.5;
@@ -467,23 +438,20 @@ height: 70vh}
   color:#5e7299;
 }
 
+.logos {
+      float:right;
+      bottom: 1vh;
+      position: relative;
+      margin-left: 2vh;
+}
+
 @media screen and (max-width: 1280px) {
-  .bloc-footer{
-  bottom:0;
-}
-  .rectangle2{
-    height: 35vh;
-    position:fixed;
-}
-  .rectangle1{
-    height: 60vh;
-    position:fixed;
-    bottom:30vh;
-}
 .fab {
       float:right;
       bottom: 1vh;
       position: relative;
       margin-left: 2vh;
+}
+}
 
 /* fin du footer */

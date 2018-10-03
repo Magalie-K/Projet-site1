@@ -27,7 +27,6 @@ main.c-offcanvas-content-wrap {
   position: relative;
   z-index: 3;
   overflow: hidden;
-  background: #fff;
 }
 
 /**
