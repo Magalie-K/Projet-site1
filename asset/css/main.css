@@ -195,7 +195,7 @@ position: bottom;
 /* Partie 2 */
 .partie1{
   display: block;
-  width: 690px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
